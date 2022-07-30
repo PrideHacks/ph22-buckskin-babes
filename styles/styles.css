@@ -5,6 +5,7 @@
 @import 'components/about-us.css';
 @import 'components/button.css';
 @import 'components/footer.css';
+@import 'components/banner.css';
 
 /* Make a color palette here, use them like this var(--blue) */
 :root {
@@ -36,31 +37,30 @@
 }
 
 .section--what-we-do {
-  background-image: url("../img/maroon_hide.jpg");
-  height: 80vh;
+    background-image: url('../img/maroon_hide.jpg');
+    height: 80vh;
 }
 
 .section--who-we-are {
 }
 
 .section--who-we-are-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
 }
 
 .section--who-we-are-btn {
-  background-color: var(--blue);
+    background-color: var(--blue);
 }
 
 .section--who-we-are-info {
-  background-color: var(--light-brown);
+    background-color: var(--light-brown);
 }
 
 .section--hide-camps {
-  background-color: var(--brown);
+    background-color: var(--brown);
 }
 
 .section--contact-form {
-
 }
