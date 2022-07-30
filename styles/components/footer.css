@@ -1,0 +1,79 @@
+.footer {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-social::before {
+    position: absolute;
+    content: 'Buckskin Babes';
+    font-size: 12px;
+    color: #fff;
+    left: 140px;
+    top: 50px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-social-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-link {
+    font-size: 32px;
+    color: white;
+    border-radius: 40%;
+    display: block;
+}
+
+.footer-social-link:hover {
+    color: var(--blue);
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.footer-link:hover {
+    color: var(--blue);
+}
+
+.footer-resources {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.footer-resources-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-copyright {
+    position: absolute;
+    font-size: 12px;
+    bottom: 0;
+    left: 10px;
+}
