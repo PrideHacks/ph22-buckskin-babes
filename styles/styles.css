@@ -1,5 +1,8 @@
-/* Import styles here */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+/* Stylesheets */
+@import 'components/about-us.css';
 @import 'components/button.css';
 @import 'components/footer.css';
 
@@ -16,4 +19,18 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    font-weight: bold;
+}
+
+.navbar--logo {
+    width: 40px;
+    height: 40px;
+}
+
+.wide-container {
+    position: relative;
+    width: 100%;
 }
