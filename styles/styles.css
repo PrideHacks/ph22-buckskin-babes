@@ -34,3 +34,33 @@
     position: relative;
     width: 100%;
 }
+
+.section--what-we-do {
+  background-image: url("../img/maroon_hide.jpg");
+  height: 80vh;
+}
+
+.section--who-we-are {
+}
+
+.section--who-we-are-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.section--who-we-are-btn {
+  background-color: var(--blue);
+}
+
+.section--who-we-are-info {
+  background-color: var(--light-brown);
+}
+
+.section--hide-camps {
+  background-color: var(--brown);
+}
+
+.section--contact-form {
+
+}
