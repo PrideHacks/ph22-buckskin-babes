@@ -1,7 +1,11 @@
-/* Import styles here */
-@import 'components/button.css';
-@import 'components/about-us.css';
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+/* Stylesheets */
+@import 'components/about-us.css';
+@import 'components/button.css';
+@import 'components/footer.css';
+
 /* Make a color palette here, use them like this var(--blue) */
 :root {
     --light-brown: #d2b48c;
@@ -18,12 +22,17 @@
 }
 
 .navbar {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .navbar--logo {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.wide-container {
+    position: relative;
+    width: 100%;
 }
 
 .section--what-we-do {
