@@ -6,29 +6,29 @@
   box-sizing: border-box;
 }
 
-.container {
+.container-about {
   width: 1100px;
   margin: auto;
 }
 
-section {
+.section-about {
   display: flex;
   margin-top: 40px;
 }
 
-img {
+.img-about {
   width: 550px;
   height: 700px;
   object-fit: cover;
 }
 
-h3 {
+.h3-about {
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 24px;
 }
 
-p {
+.p-about {
   margin-top: 12px;
   font-size: 16px;
 }
@@ -67,3 +67,4 @@ p {
   padding-right: 3em;
   color: white;
 }
+*/
