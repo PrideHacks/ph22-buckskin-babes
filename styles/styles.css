@@ -1,5 +1,6 @@
 /* Import styles here */
 @import 'components/button.css';
+@import 'components/about-us.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
 /* Make a color palette here, use them like this var(--blue) */
 :root {
