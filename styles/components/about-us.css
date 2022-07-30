@@ -48,8 +48,8 @@ p {
 .member-bio {
   /* margin: 24px auto; */
   padding: 2em;
-  height: 650px;
-  mix-blend-mode: screen;
+  height: auto;
+  mix-blend-mode: multiply;
   align-self: center;
 
 }
@@ -58,6 +58,7 @@ p {
   background: var(--light-brown);
   padding-left: 3em ;
   padding-right: 5em;
+  z-index: 1;
 }
 
 .bio-right {
