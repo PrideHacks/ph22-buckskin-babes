@@ -3,12 +3,10 @@
 
 /* Make a color palette here, use them like this var(--blue) */
 :root {
-    --grey: #1c2022;
-    --blue: #3f54a3;
-    --red: #ed2c49;
-    --cyan: #69becd;
-    --green: #aad741;
-    --pink: #cf6390;
+    --light-brown: #d2b48c;
+    --brown: #86563c;
+    --orange: #ff5733;
+    --blue: #00bfff;
 }
 
 * {
@@ -16,4 +14,5 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: red;
 }
