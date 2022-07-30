@@ -16,23 +16,12 @@ section {
   margin-top: 40px;
 }
 
+/* IMG STYLING */
 img {
   width: 550px;
   height: 700px;
   object-fit: cover;
 }
-
-h3 {
-  font-weight: 600;
-  margin-bottom: 20px;
-  font-size: 24px;
-}
-
-p {
-  margin-top: 12px;
-  font-size: 16px;
-}
-
 .member-img {
   position: relative;
 }
@@ -45,6 +34,7 @@ p {
   right: 4%;
 }
 
+/* TEXT STYLING */
 .member-bio {
   /* margin: 24px auto; */
   padding: 2em;
@@ -66,4 +56,48 @@ p {
   padding-left: 5em ;
   padding-right: 3em;
   color: white;
+}
+
+h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+p {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+/* MEDIA QUERY */
+
+/* Screen that are 600px or less */
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100vw;
+    /* margin: 10px; */
+  }
+
+  section {
+    display: block;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .img-left {
+    left: 0;
+  }
+  .img-right {
+    right: 0;
+  }
+  .member-bio, .bio-left, .bio-right {
+    padding: 2em;
+  }
+
+  .bio-right {
+    margin-top: -4px;
+  }
 }
