@@ -1,6 +1,8 @@
 /* Import styles here */
-@import 'components/button.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+@import 'components/button.css';
+@import 'components/footer.css';
+
 /* Make a color palette here, use them like this var(--blue) */
 :root {
     --light-brown: #d2b48c;
